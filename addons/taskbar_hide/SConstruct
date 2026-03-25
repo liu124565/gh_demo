@@ -1,0 +1,17 @@
+﻿import os
+
+GODOT_CPP_PATH = os.environ.get("GODOT_CPP_PATH", "godot-cpp")
+
+env = SConscript(os.path.join(GODOT_CPP_PATH, "SConstruct"))
+
+env.Append(CPPPATH=["src"])
+env.Append(LIBS=["user32"])
+
+sources = Glob("src/*.cpp")
+
+lib = env.SharedLibrary(
+    "bin/taskbar_hide_active{}{}".format(env["suffix"], env["SHLIBSUFFIX"]),
+    source=sources,
+)
+
+Default(lib)

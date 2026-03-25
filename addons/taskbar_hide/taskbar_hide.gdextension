@@ -1,0 +1,8 @@
+[configuration]
+entry_symbol = "taskbar_hide_library_init"
+compatibility_minimum = "4.1"
+
+[libraries]
+windows.editor.x86_64 = "res://addons/taskbar_hide/bin/taskbar_hide_active.windows.editor.x86_64.dll"
+windows.debug.x86_64 = "res://addons/taskbar_hide/bin/taskbar_hide_active.windows.template_debug.x86_64.dll"
+windows.release.x86_64 = "res://addons/taskbar_hide/bin/taskbar_hide_active.windows.template_release.x86_64.dll"

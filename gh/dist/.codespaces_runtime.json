@@ -1,0 +1,14 @@
+{
+  "sessions": [
+    {
+      "repo": "liu124565/test_1",
+      "codespace_name": "scaling-space-guacamole-rjr9jg4xv5vc59j6",
+      "host_alias": "cs.scaling-space-guacamole-rjr9jg4xv5vc59j6.main",
+      "socks_port": 1080,
+      "socks_launcher_pid": 75644,
+      "keepalive_pid": null,
+      "keepalive_interval": 240,
+      "created_at": "2026-03-25T02:10:59.233296"
+    }
+  ]
+}
