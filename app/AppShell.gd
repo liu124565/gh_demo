@@ -1451,9 +1451,9 @@ func _update_mouse_passthrough() -> void:
 	var hit_rect := Rect2(_cat_shell.position, _cat_shell.size)
 	var popup_fully_visible := _popup_window != null and _popup_window.visible and _popup_window.modulate.a >= 0.95
 	if _game_popup_window != null and _game_popup_window.visible:
-		hit_rect = Rect2(_game_popup_window.position, _game_popup_window.size)
+		hit_rect = hit_rect.merge(Rect2(_game_popup_window.position, _game_popup_window.size))
 	elif popup_fully_visible:
-		hit_rect = Rect2(_popup_window.position, _popup_window.size)
+		hit_rect = hit_rect.merge(Rect2(_popup_window.position, _popup_window.size))
 	elif _menu_panel != null and _menu_panel.visible:
 		hit_rect = hit_rect.merge(Rect2(_menu_panel.position, _menu_panel.size))
 

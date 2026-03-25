@@ -1,48 +1,39 @@
-[INFO] Log started at 2026-03-25T02:10:24.767044 | script=codespaces_login | cwd=E:\Desktop\godot_test\demo\demo-test | runtime=E:\Desktop\godot_test\demo\demo-test\gh\dist
+[INFO] Log started at 2026-03-25T16:12:34.055910 | script=codespaces_login | cwd=E:\Desktop\godot_test\demo\demo-test | runtime=E:\Desktop\godot_test\demo\demo-test\gh\dist
 [INFO] Log file: E:\Desktop\godot_test\demo\demo-test\gh\dist\logs\codespaces_session.log
 [INFO] gh detected: C:\Program Files\GitHub CLI\gh.EXE
 [INFO] Using GitHub token from command-line argument
 [INFO] gh authenticated as: liu124565
-[INFO] Using repo: liu124565/test_1
+[INFO] Using repo: liu124565/gh_demo
 [INFO] Available codespaces:
-  - scaling-space-guacamole-rjr9jg4xv5vc59j6 | scaling space guacamole | liu124565/test_1 | Shutdown | 2026-03-25T02:08:25+08:00
-[INFO] Auto-selected latest codespace: scaling-space-guacamole-rjr9jg4xv5vc59j6
-[INFO] Writing local SSH config for codespace: scaling-space-guacamole-rjr9jg4xv5vc59j6
-[INFO] Local SSH host alias: cs.scaling-space-guacamole-rjr9jg4xv5vc59j6.main
-[INFO] Direct SSH: ssh cs.scaling-space-guacamole-rjr9jg4xv5vc59j6.main
-[INFO] SOCKS proxy: ssh -D 1080 -N -C cs.scaling-space-guacamole-rjr9jg4xv5vc59j6.main
-[INFO] Verifying local SSH connectivity: cs.scaling-space-guacamole-rjr9jg4xv5vc59j6.main
+  - orange-space-broccoli-gg59gq4pwwr3wr6w | orange space broccoli | liu124565/gh_demo | Shutdown | 2026-03-25T15:26:03+08:00
+[INFO] Auto-selected latest codespace: orange-space-broccoli-gg59gq4pwwr3wr6w
+[INFO] Writing local SSH config for codespace: orange-space-broccoli-gg59gq4pwwr3wr6w
+[INFO] Local SSH host alias: cs.orange-space-broccoli-gg59gq4pwwr3wr6w.master
+[INFO] Direct SSH: ssh cs.orange-space-broccoli-gg59gq4pwwr3wr6w.master
+[INFO] SOCKS proxy: ssh -D 1080 -N -C cs.orange-space-broccoli-gg59gq4pwwr3wr6w.master
+[INFO] Verifying local SSH connectivity: cs.orange-space-broccoli-gg59gq4pwwr3wr6w.master
 [INFO] Local SSH verification passed
 [INFO] Preferred local SOCKS port is available: 1080
-[INFO] Starting hidden local SOCKS proxy: ssh -D 1080 -N -C cs.scaling-space-guacamole-rjr9jg4xv5vc59j6.main
+[INFO] Starting hidden local SOCKS proxy: ssh -D 1080 -N -C cs.orange-space-broccoli-gg59gq4pwwr3wr6w.master
 [INFO] Local port 1080 is listening
-TCP    127.0.0.1:1080         0.0.0.0:0              LISTENING       75644
-  TCP    [::1]:1080             [::]:0                 LISTENING       75644
+TCP    127.0.0.1:1080         0.0.0.0:0              LISTENING       76332
+  TCP    [::1]:1080             [::]:0                 LISTENING       76332
 [INFO] SOCKS5 proxy ready: 127.0.0.1:1080
 [INFO] 启动成功
-[INFO] Connecting to codespace: scaling-space-guacamole-rjr9jg4xv5vc59j6
-[INFO] Log started at 2026-03-25T02:11:45.805287 | script=codespaces_close | cwd=E:\Desktop\godot_test\demo\demo-test | runtime=E:\Desktop\godot_test\demo\demo-test\gh\dist
-[INFO] Log file: E:\Desktop\godot_test\demo\demo-test\gh\dist\logs\codespaces_session.log
-[INFO] Received GitHub token from command-line argument: ghp_...0uvs
-[INFO] Log started at 2026-03-25T02:11:45.842537 | script=codespaces_close | cwd=E:\Desktop\godot_test\demo\demo-test | runtime=E:\Desktop\godot_test\demo\demo-test\gh\dist
+[INFO] Connecting to codespace: orange-space-broccoli-gg59gq4pwwr3wr6w
+[INFO] Log started at 2026-03-25T16:14:01.959351 | script=codespaces_close | cwd=E:\Desktop\godot_test\demo\demo-test | runtime=E:\Desktop\godot_test\demo\demo-test\gh\dist
 [INFO] Log file: E:\Desktop\godot_test\demo\demo-test\gh\dist\logs\codespaces_session.log
 [INFO] Received GitHub token from command-line argument: ghp_...0uvs
 [INFO] Closing session: scaling-space-guacamole-rjr9jg4xv5vc59j6 | port=1080 | pid=75644 | keepalive_pid=None
 [INFO] Killing process tree PID 75644
-[INFO] Closing session: scaling-space-guacamole-rjr9jg4xv5vc59j6 | port=1080 | pid=75644 | keepalive_pid=None
-[INFO] Killing process tree PID 75644
-[INFO] PID 75644 terminated
-����: �޷���ֹ PID 69920 (���� PID 75644 �ӽ���)�Ľ��̡�
-ԭ��: ��������֧�֡�
-
-����: �޷���ֹ PID 70484 (���� PID 75644 �ӽ���)�Ľ��̡�
-ԭ��: û�д������ʵ�������С�
-
-����: �޷���ֹ PID 75644 (���� PID 36528 �ӽ���)�Ľ��̡�
-ԭ��: û�д������ʵ�������С�
+����: û���ҵ����� "75644"��
+[INFO] Killing process tree PID 76332
+[INFO] PID 76332 terminated
 [INFO] Stopping codespace: scaling-space-guacamole-rjr9jg4xv5vc59j6
-[INFO] Stopping codespace: scaling-space-guacamole-rjr9jg4xv5vc59j6
-[INFO] Done. All recorded codespaces and SSH proxies were closed.
-failed to stop codespace: HTTP 500 (https://api.github.com/user/codespaces/scaling-space-guacamole-rjr9jg4xv5vc59j6/stop)
+failed to get codespace: "scaling-space-guacamole-rjr9jg4xv5vc59j6": HTTP 404: Not Found (https://api.github.com/user/codespaces/scaling-space-guacamole-rjr9jg4xv5vc59j6)
 [ERROR] Failed to stop codespace scaling-space-guacamole-rjr9jg4xv5vc59j6 with command: "C:\Program Files\GitHub CLI\gh.EXE" codespace stop --codespace scaling-space-guacamole-rjr9jg4xv5vc59j6
+[INFO] Closing session: orange-space-broccoli-gg59gq4pwwr3wr6w | port=1080 | pid=76332 | keepalive_pid=None
+[INFO] Killing process tree PID 76332
+����: û���ҵ����� "76332"��
+[INFO] Stopping codespace: orange-space-broccoli-gg59gq4pwwr3wr6w
 [ERROR] Some codespaces could not be stopped. Their sessions were kept for retry.
